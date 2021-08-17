@@ -1,0 +1,91 @@
+[ {
+  "uid" : "f0d359e6381ea9d6",
+  "name" : "testDeleteProductFromCart()",
+  "time" : {
+    "start" : 1629204606124,
+    "stop" : 1629204606288,
+    "duration" : 164
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "86a01d8b122d2bca",
+  "name" : "DownloadPrivacyPolicyAsPDF()",
+  "time" : {
+    "start" : 1629204605448,
+    "stop" : 1629204605620,
+    "duration" : 172
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5e2f9717a45ecac9",
+  "name" : "FilterAppleNotebooksTest()",
+  "time" : {
+    "start" : 1629204605278,
+    "stop" : 1629204605435,
+    "duration" : 157
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d12011c5da879a75",
+  "name" : "testBrandFilter()",
+  "time" : {
+    "start" : 1629204605104,
+    "stop" : 1629204605264,
+    "duration" : 160
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "43e53acbff9dbe3a",
+  "name" : "MultiPageAppleProductFilterTest()",
+  "time" : {
+    "start" : 1629204605944,
+    "stop" : 1629204606109,
+    "duration" : 165
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "19a3c0e80220d0c1",
+  "name" : "testCheckEachLineOfPrivacyPolicyTextFile()",
+  "time" : {
+    "start" : 1629204604935,
+    "stop" : 1629204605082,
+    "duration" : 147
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "16495794d7d0385b",
+  "name" : "testSuccessfulLogout()",
+  "time" : {
+    "start" : 1629204604226,
+    "stop" : 1629204604872,
+    "duration" : 646
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cc87f585f94ca238",
+  "name" : "testUnsuccessfulLogin()",
+  "time" : {
+    "start" : 1629204605637,
+    "stop" : 1629204605788,
+    "duration" : 151
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "853b3f8577e02fe1",
+  "name" : "testSuccessfulLogin()",
+  "time" : {
+    "start" : 1629204605796,
+    "stop" : 1629204605939,
+    "duration" : 143
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
