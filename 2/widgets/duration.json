@@ -1,0 +1,91 @@
+[ {
+  "uid" : "30ce7ad44bc00fc2",
+  "name" : "testCheckEachLineOfPrivacyPolicyTextFile()",
+  "time" : {
+    "start" : 1629205223012,
+    "stop" : 1629205223058,
+    "duration" : 46
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "81e2f51a88947e5f",
+  "name" : "testSuccessfulLogout()",
+  "time" : {
+    "start" : 1629205197062,
+    "stop" : 1629205222894,
+    "duration" : 25832
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8b92de81a280ceb2",
+  "name" : "testBrandFilter()",
+  "time" : {
+    "start" : 1629205223091,
+    "stop" : 1629205223113,
+    "duration" : 22
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3c37c930d86b1707",
+  "name" : "DownloadPrivacyPolicyAsPDF()",
+  "time" : {
+    "start" : 1629205223176,
+    "stop" : 1629205223216,
+    "duration" : 40
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5cf9a8917305d27a",
+  "name" : "MultiPageAppleProductFilterTest()",
+  "time" : {
+    "start" : 1629205223260,
+    "stop" : 1629205223274,
+    "duration" : 14
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b8323be41057ea9b",
+  "name" : "testSuccessfulLogin()",
+  "time" : {
+    "start" : 1629205223238,
+    "stop" : 1629205223246,
+    "duration" : 8
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7fe1c156cad3795c",
+  "name" : "testUnsuccessfulLogin()",
+  "time" : {
+    "start" : 1629205223221,
+    "stop" : 1629205223232,
+    "duration" : 11
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "17455b4487a73bfb",
+  "name" : "testDeleteProductFromCart()",
+  "time" : {
+    "start" : 1629205223282,
+    "stop" : 1629205223298,
+    "duration" : 16
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cdd55b5ee21839ca",
+  "name" : "FilterAppleNotebooksTest()",
+  "time" : {
+    "start" : 1629205223138,
+    "stop" : 1629205223158,
+    "duration" : 20
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
