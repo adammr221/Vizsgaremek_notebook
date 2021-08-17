@@ -12,9 +12,10 @@ import pages.HomePage;
 import java.util.concurrent.TimeUnit;
 
 public class baseTest {
-    private static WebDriver driver;
+    protected static WebDriver driver;
     protected HomePage homePage;
 
+    /*
     @BeforeEach
     public void setUp(){
         WebDriverManager.chromedriver().setup();
@@ -27,10 +28,23 @@ public class baseTest {
         homePage = new HomePage(driver);
         homePage.navigate();
     }
+     */
+    @BeforeEach
+    public void SetUp() {
+        WebDriverManager.chromedriver().setup();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--disable-dev-shm-usage");
+        //options.addArguments("--headless");
+        driver = new ChromeDriver(options);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+        homePage = new HomePage(driver);
+        homePage.navigate();
+    }
 
 
     @AfterEach
-    public void quit(){
+    public void tearDown(){
             driver.quit();
     }
 
