@@ -1,0 +1,91 @@
+[ {
+  "uid" : "6bcfac628f9dc9b3",
+  "name" : "MultiPageAppleProductFilterTest()",
+  "time" : {
+    "start" : 1629206663174,
+    "stop" : 1629206686706,
+    "duration" : 23532
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a696a0dbc168ad28",
+  "name" : "testBrandFilter()",
+  "time" : {
+    "start" : 1629206559316,
+    "stop" : 1629206584221,
+    "duration" : 24905
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dceecd4b6839620a",
+  "name" : "testDeleteProductFromCart()",
+  "time" : {
+    "start" : 1629206686717,
+    "stop" : 1629206710243,
+    "duration" : 23526
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9094d2b24afad1ea",
+  "name" : "testCheckEachLineOfPrivacyPolicyTextFile()",
+  "time" : {
+    "start" : 1629206554227,
+    "stop" : 1629206559310,
+    "duration" : 5083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e245b62b86567ebd",
+  "name" : "testUnsuccessfulLogin()",
+  "time" : {
+    "start" : 1629206613495,
+    "stop" : 1629206638296,
+    "duration" : 24801
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d1e6462ac86ff47e",
+  "name" : "FilterAppleNotebooksTest()",
+  "time" : {
+    "start" : 1629206584227,
+    "stop" : 1629206607730,
+    "duration" : 23503
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "97fc44279a16dee",
+  "name" : "testSuccessfulLogout()",
+  "time" : {
+    "start" : 1629206529875,
+    "stop" : 1629206554100,
+    "duration" : 24225
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f1d311774b0f6346",
+  "name" : "testSuccessfulLogin()",
+  "time" : {
+    "start" : 1629206638303,
+    "stop" : 1629206663168,
+    "duration" : 24865
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "16cdef208e985f37",
+  "name" : "DownloadPrivacyPolicyAsPDF()",
+  "time" : {
+    "start" : 1629206607735,
+    "stop" : 1629206613490,
+    "duration" : 5755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,154 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "logout.LogoutTest",
+    "children" : [ {
+      "name" : "testSuccessfulLogout()",
+      "uid" : "97fc44279a16dee",
+      "parentUid" : "9d2dbe5ca75b2a590386ac43a04ed3ee",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629206529875,
+        "stop" : 1629206554100,
+        "duration" : 24225
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9d2dbe5ca75b2a590386ac43a04ed3ee"
+  }, {
+    "name" : "privacypolicy.PrivacyPolicyTest",
+    "children" : [ {
+      "name" : "testCheckEachLineOfPrivacyPolicyTextFile()",
+      "uid" : "9094d2b24afad1ea",
+      "parentUid" : "b83a0ffd40c9049d7b5a92424a960378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629206554227,
+        "stop" : 1629206559310,
+        "duration" : 5083
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b83a0ffd40c9049d7b5a92424a960378"
+  }, {
+    "name" : "modify_data.ModifyDataTest",
+    "children" : [ {
+      "name" : "testBrandFilter()",
+      "uid" : "a696a0dbc168ad28",
+      "parentUid" : "a6bec143ac05b84a25865582d24feca9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629206559316,
+        "stop" : 1629206584221,
+        "duration" : 24905
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a6bec143ac05b84a25865582d24feca9"
+  }, {
+    "name" : "save_data.ProductFilterTest",
+    "children" : [ {
+      "name" : "FilterAppleNotebooksTest()",
+      "uid" : "d1e6462ac86ff47e",
+      "parentUid" : "cff3f54b7f1b3970a2021ede966cfe3a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629206584227,
+        "stop" : 1629206607730,
+        "duration" : 23503
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cff3f54b7f1b3970a2021ede966cfe3a"
+  }, {
+    "name" : "save_data.DownloadDataTest",
+    "children" : [ {
+      "name" : "DownloadPrivacyPolicyAsPDF()",
+      "uid" : "16cdef208e985f37",
+      "parentUid" : "f8bae4b9e8bca1b335ad69121a242a98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629206607735,
+        "stop" : 1629206613490,
+        "duration" : 5755
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f8bae4b9e8bca1b335ad69121a242a98"
+  }, {
+    "name" : "login.LoginTest",
+    "children" : [ {
+      "name" : "testUnsuccessfulLogin()",
+      "uid" : "e245b62b86567ebd",
+      "parentUid" : "b4388fd6319efc981a634ab840782df5",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629206613495,
+        "stop" : 1629206638296,
+        "duration" : 24801
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testSuccessfulLogin()",
+      "uid" : "f1d311774b0f6346",
+      "parentUid" : "b4388fd6319efc981a634ab840782df5",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629206638303,
+        "stop" : 1629206663168,
+        "duration" : 24865
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b4388fd6319efc981a634ab840782df5"
+  }, {
+    "name" : "read_multipage_list.ReadMultiPageListTest",
+    "children" : [ {
+      "name" : "MultiPageAppleProductFilterTest()",
+      "uid" : "6bcfac628f9dc9b3",
+      "parentUid" : "99a01ee6bc7964f3ea263943596f49f7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629206663174,
+        "stop" : 1629206686706,
+        "duration" : 23532
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "99a01ee6bc7964f3ea263943596f49f7"
+  }, {
+    "name" : "delete_data.DeleteProductFromCartTest",
+    "children" : [ {
+      "name" : "testDeleteProductFromCart()",
+      "uid" : "dceecd4b6839620a",
+      "parentUid" : "61818b4fa8ab9c0b7d418525af35021f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629206686717,
+        "stop" : 1629206710243,
+        "duration" : 23526
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "61818b4fa8ab9c0b7d418525af35021f"
+  } ],
+  "name" : "suites"
+}
