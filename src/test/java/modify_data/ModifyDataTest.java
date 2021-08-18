@@ -1,8 +1,13 @@
 package modify_data;
 
+import io.qameta.allure.Allure;
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Assumptions;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import pages.LoginPage;
 import pages.MyAccountPage;
 import pages.ResultPage;
@@ -10,22 +15,21 @@ import pages.Tools;
 import testbase.baseTest;
 
 import javax.tools.Tool;
+import java.io.ByteArrayInputStream;
 
 public class ModifyDataTest extends baseTest {
     @Test
     public void testBrandFilter(){
         homePage.navigate();
-        Tools.TakeScreenshot(driver);
+        TakeScreenshot(driver);
         homePage.setSearchBar("pendrive");
-        Tools.TakeScreenshot(driver);
+        TakeScreenshot(driver);
         ResultPage resultPage = homePage.clickEnterToShowSearchResults();
-        Tools.TakeScreenshot(driver);
+        TakeScreenshot(driver);
         int NumberOfBrandsBeforeFilter = resultPage.getNumberOfBrands();
         resultPage.setBrandSearchBar("adata");
-        Tools.TakeScreenshot(driver);
         int NumberOfBrandsAfterFilter = resultPage.getNumberOfBrands();
         resultPage.modifyBrandSearchBar("ki");
-        Tools.TakeScreenshot(driver);
         Assumptions.assumeTrue(NumberOfBrandsAfterFilter < NumberOfBrandsBeforeFilter);
         Assertions.assertTrue(resultPage.checkBrandNamesIncludeSearchedSubString("ki"));
     }
@@ -49,4 +53,10 @@ public class ModifyDataTest extends baseTest {
     }
 
      */
+
+    @Step("TakeScreenshot")
+    public void TakeScreenshot(WebDriver driver) {
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        System.out.println(driver.getCurrentUrl());
+    }
 }

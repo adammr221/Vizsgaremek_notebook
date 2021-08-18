@@ -23,10 +23,13 @@ public class Tools {
         }
     }
 
+/*
     @Step("TakeScreenshot")
     public static void TakeScreenshot(WebDriver driver) {
         Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         System.out.println(driver.getCurrentUrl());
     }
+
+ */
 
 }
