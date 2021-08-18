@@ -1,0 +1,156 @@
+{
+  "uid" : "dccf77d503a727a3",
+  "name" : "testCheckEachLineOfPrivacyPolicyTextFile()",
+  "fullName" : "privacypolicy.PrivacyPolicyTest.testCheckEachLineOfPrivacyPolicyTextFile",
+  "historyId" : "fccd17f2f4d2db3d6f7e42e2f8c16e35",
+  "time" : {
+    "start" : 1629311710638,
+    "stop" : 1629311716056,
+    "duration" : 5418
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629311710648,
+      "stop" : 1629311714140,
+      "duration" : 3492
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629311715981,
+      "stop" : 1629311716056,
+      "duration" : 75
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-628"
+  }, {
+    "name" : "thread",
+    "value" : "4311@fv-az47-628.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "privacypolicy.PrivacyPolicyTest"
+  }, {
+    "name" : "testClass",
+    "value" : "privacypolicy.PrivacyPolicyTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCheckEachLineOfPrivacyPolicyTextFile"
+  }, {
+    "name" : "suite",
+    "value" : "privacypolicy.PrivacyPolicyTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "2af07809325273ac",
+        "reportUrl" : "https://adammr221.github.io/Vizsgaremek_notebook/6//#testresult/2af07809325273ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629309416956,
+          "stop" : 1629309421840,
+          "duration" : 4884
+        }
+      }, {
+        "uid" : "9773d6d321ba8c58",
+        "reportUrl" : "https://adammr221.github.io/Vizsgaremek_notebook/5//#testresult/9773d6d321ba8c58",
+        "status" : "broken",
+        "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.0.61', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+        "time" : {
+          "start" : 1629308567153,
+          "stop" : 1629308567208,
+          "duration" : 55
+        }
+      }, {
+        "uid" : "9094d2b24afad1ea",
+        "reportUrl" : "https://adammr221.github.io/Vizsgaremek_notebook/4//#testresult/9094d2b24afad1ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629206554227,
+          "stop" : 1629206559310,
+          "duration" : 5083
+        }
+      }, {
+        "uid" : "2297f1076d496202",
+        "reportUrl" : "https://adammr221.github.io/Vizsgaremek_notebook/3//#testresult/2297f1076d496202",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-628', ip: '10.1.1.148', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55d9c6e83a63 <unknown>\n#1 0x55d9c6bf8458 <unknown>\n#2 0x55d9c6c1b2e3 <unknown>\n#3 0x55d9c6c16e9f <unknown>\n#4 0x55d9c6c50b72 <unknown>\n#5 0x55d9c6c4afd3 <unknown>\n#6 0x55d9c6c21514 <unknown>\n#7 0x55d9c6c22505 <unknown>\n#8 0x55d9c6eafe2e <unknown>\n#9 0x55d9c6ec5886 <unknown>\n#10 0x55d9c6eb0d75 <unknown>\n#11 0x55d9c6ec6d94 <unknown>\n#12 0x55d9c6ea78eb <unknown>\n#13 0x55d9c6ee1cd8 <unknown>\n#14 0x55d9c6ee1e58 <unknown>\n#15 0x55d9c6efbdfd <unknown>\n#16 0x7feba6ffd609 start_thread\n",
+        "time" : {
+          "start" : 1629206278764,
+          "stop" : 1629206279031,
+          "duration" : 267
+        }
+      }, {
+        "uid" : "30ce7ad44bc00fc2",
+        "reportUrl" : "https://adammr221.github.io/Vizsgaremek_notebook/2//#testresult/30ce7ad44bc00fc2",
+        "status" : "broken",
+        "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.1.28', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+        "time" : {
+          "start" : 1629205223012,
+          "stop" : 1629205223058,
+          "duration" : 46
+        }
+      }, {
+        "uid" : "19a3c0e80220d0c1",
+        "reportUrl" : "https://adammr221.github.io/Vizsgaremek_notebook/1//#testresult/19a3c0e80220d0c1",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-229', ip: '10.1.0.77', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x555a5d4eba63 <unknown>\n#1 0x555a5d260458 <unknown>\n#2 0x555a5d2832e3 <unknown>\n#3 0x555a5d27ee9f <unknown>\n#4 0x555a5d2b8b72 <unknown>\n#5 0x555a5d2b2fd3 <unknown>\n#6 0x555a5d289514 <unknown>\n#7 0x555a5d28a505 <unknown>\n#8 0x555a5d517e2e <unknown>\n#9 0x555a5d52d886 <unknown>\n#10 0x555a5d518d75 <unknown>\n#11 0x555a5d52ed94 <unknown>\n#12 0x555a5d50f8eb <unknown>\n#13 0x555a5d549cd8 <unknown>\n#14 0x555a5d549e58 <unknown>\n#15 0x555a5d563dfd <unknown>\n#16 0x7fbcb23f5609 start_thread\n",
+        "time" : {
+          "start" : 1629204604935,
+          "stop" : 1629204605082,
+          "duration" : 147
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dccf77d503a727a3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,137 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "logout.LogoutTest",
+    "children" : [ {
+      "name" : "testSuccessfulLogout()",
+      "uid" : "9fbee282d6b5fee9",
+      "parentUid" : "9d2dbe5ca75b2a590386ac43a04ed3ee",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629311681002,
+        "stop" : 1629311710482,
+        "duration" : 29480
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9d2dbe5ca75b2a590386ac43a04ed3ee"
+  }, {
+    "name" : "privacypolicy.PrivacyPolicyTest",
+    "children" : [ {
+      "name" : "testCheckEachLineOfPrivacyPolicyTextFile()",
+      "uid" : "dccf77d503a727a3",
+      "parentUid" : "b83a0ffd40c9049d7b5a92424a960378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629311710638,
+        "stop" : 1629311716056,
+        "duration" : 5418
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b83a0ffd40c9049d7b5a92424a960378"
+  }, {
+    "name" : "modify_data.ModifyDataTest",
+    "children" : [ {
+      "name" : "testBrandFilter()",
+      "uid" : "31ba542a0ceed5c2",
+      "parentUid" : "a6bec143ac05b84a25865582d24feca9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629311716068,
+        "stop" : 1629311746462,
+        "duration" : 30394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a6bec143ac05b84a25865582d24feca9"
+  }, {
+    "name" : "save_data.ProductFilterTest",
+    "children" : [ {
+      "name" : "FilterAppleNotebooksTest()",
+      "uid" : "64ca508435d319d9",
+      "parentUid" : "cff3f54b7f1b3970a2021ede966cfe3a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629311746480,
+        "stop" : 1629311775212,
+        "duration" : 28732
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cff3f54b7f1b3970a2021ede966cfe3a"
+  }, {
+    "name" : "login.LoginTest",
+    "children" : [ {
+      "name" : "testUnsuccessfulLogin()",
+      "uid" : "df93b0eb41dc828",
+      "parentUid" : "b4388fd6319efc981a634ab840782df5",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629311775232,
+        "stop" : 1629311805142,
+        "duration" : 29910
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testSuccessfulLogin()",
+      "uid" : "314aa27ec3d0cf58",
+      "parentUid" : "b4388fd6319efc981a634ab840782df5",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629311805152,
+        "stop" : 1629311835200,
+        "duration" : 30048
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b4388fd6319efc981a634ab840782df5"
+  }, {
+    "name" : "read_multipage_list.ReadMultiPageListTest",
+    "children" : [ {
+      "name" : "MultiPageAppleProductFilterTest()",
+      "uid" : "aa7bf4a0f309b6bb",
+      "parentUid" : "99a01ee6bc7964f3ea263943596f49f7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629311835210,
+        "stop" : 1629311863725,
+        "duration" : 28515
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "99a01ee6bc7964f3ea263943596f49f7"
+  }, {
+    "name" : "delete_data.DeleteProductFromCartTest",
+    "children" : [ {
+      "name" : "testDeleteProductFromCart()",
+      "uid" : "3d72ccae10e843a7",
+      "parentUid" : "61818b4fa8ab9c0b7d418525af35021f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629311863740,
+        "stop" : 1629311892393,
+        "duration" : 28653
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "61818b4fa8ab9c0b7d418525af35021f"
+  } ],
+  "name" : "suites"
+}
