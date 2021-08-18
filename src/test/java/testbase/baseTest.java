@@ -21,8 +21,9 @@ public class baseTest {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
-        //options.addArguments("start-maximized");
+        options.addArguments("start-maximized");
         options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--window-size=1920,1080");
         driver = getDriver(options);
         homePage = new HomePage(driver);
         homePage.navigate();

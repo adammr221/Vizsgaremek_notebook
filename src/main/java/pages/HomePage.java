@@ -33,6 +33,7 @@ public class HomePage {
     private final By SUBSCRIPTION_ACCEPT_PRIVACY_POLICY = By.xpath("//input[@id='adatvedelem']");
     private final By SUBSCRIPTION_BTN = By.xpath("//button[@name='subscribe']");
     private final By SEARCH_BAR = By.xpath("//input[@id='pf-desktop-ac']");
+    private final By SEARCH_BTN = By.xpath("//button[@class='btn_search']");
     private List<String> SubscriptionAlertTextList = new ArrayList<>();
 
 
@@ -166,6 +167,7 @@ public class HomePage {
     public void setSearchBar(String input){
         //WebDriverWait wait = new WebDriverWait(DRIVER, 30);
         //wait.until(ExpectedConditions.elementToBeClickable(SEARCH_BAR));
+        //click(SEARCH_BTN);
         DRIVER.findElement(SEARCH_BAR).sendKeys(input);
     }
 
