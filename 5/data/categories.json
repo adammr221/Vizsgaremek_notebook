@@ -1,0 +1,121 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.0.61', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.tTERT9}, goog:chromeOptions: {debuggerAddress: localhost:44455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: eb3ea3edea024649c2d7fa7072e58133",
+      "children" : [ {
+        "name" : "testSuccessfulLogout()",
+        "uid" : "bf4eb740d680388a",
+        "parentUid" : "ad294b7878efbaa013337c575f0124eb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308541279,
+          "stop" : 1629308567056,
+          "duration" : 25777
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad294b7878efbaa013337c575f0124eb"
+    }, {
+      "name" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.0.61', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "children" : [ {
+        "name" : "testCheckEachLineOfPrivacyPolicyTextFile()",
+        "uid" : "9773d6d321ba8c58",
+        "parentUid" : "5d8d4747a5653880d7bc8de4c5805e4a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308567153,
+          "stop" : 1629308567208,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testBrandFilter()",
+        "uid" : "b85612c4cf8de10",
+        "parentUid" : "5d8d4747a5653880d7bc8de4c5805e4a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308567232,
+          "stop" : 1629308567259,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "FilterAppleNotebooksTest()",
+        "uid" : "8b9f5f8bb84d2fb8",
+        "parentUid" : "5d8d4747a5653880d7bc8de4c5805e4a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308567270,
+          "stop" : 1629308567315,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testUnsuccessfulLogin()",
+        "uid" : "91736f63ccc5eabb",
+        "parentUid" : "5d8d4747a5653880d7bc8de4c5805e4a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308567328,
+          "stop" : 1629308567338,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testSuccessfulLogin()",
+        "uid" : "cdb9509500acd447",
+        "parentUid" : "5d8d4747a5653880d7bc8de4c5805e4a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308567343,
+          "stop" : 1629308567352,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "MultiPageAppleProductFilterTest()",
+        "uid" : "657131b4f9bbecae",
+        "parentUid" : "5d8d4747a5653880d7bc8de4c5805e4a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308567372,
+          "stop" : 1629308567382,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testDeleteProductFromCart()",
+        "uid" : "61743741ddcce869",
+        "parentUid" : "5d8d4747a5653880d7bc8de4c5805e4a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629308567405,
+          "stop" : 1629308567419,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d8d4747a5653880d7bc8de4c5805e4a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
