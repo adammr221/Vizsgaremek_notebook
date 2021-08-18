@@ -1,0 +1,81 @@
+[ {
+  "uid" : "d347c253d51b5bcc",
+  "name" : "testCheckEachLineOfPrivacyPolicyTextFile()",
+  "time" : {
+    "start" : 1629316862236,
+    "stop" : 1629316867676,
+    "duration" : 5440
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "866dd30215a7a34c",
+  "name" : "MultiPageAppleProductFilterTest()",
+  "time" : {
+    "start" : 1629316898762,
+    "stop" : 1629316959606,
+    "duration" : 60844
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b06bd3c8195f0607",
+  "name" : "testSuccessfulLogout()",
+  "time" : {
+    "start" : 1629316852518,
+    "stop" : 1629316862141,
+    "duration" : 9623
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59358071a5970ba9",
+  "name" : "testSuccessfulLogin()",
+  "time" : {
+    "start" : 1629316890880,
+    "stop" : 1629316898750,
+    "duration" : 7870
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53395aa79a2f3ba6",
+  "name" : "testDeleteProductFromCart()",
+  "time" : {
+    "start" : 1629316959616,
+    "stop" : 1629316978303,
+    "duration" : 18687
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6220678c48c96e2b",
+  "name" : "testBrandFilter()",
+  "time" : {
+    "start" : 1629316867691,
+    "stop" : 1629316875778,
+    "duration" : 8087
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58efc7ec44c2da1d",
+  "name" : "FilterAppleNotebooksTest()",
+  "time" : {
+    "start" : 1629316875791,
+    "stop" : 1629316882833,
+    "duration" : 7042
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50a511a322801d02",
+  "name" : "testUnsuccessfulLogin()",
+  "time" : {
+    "start" : 1629316882842,
+    "stop" : 1629316890876,
+    "duration" : 8034
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
