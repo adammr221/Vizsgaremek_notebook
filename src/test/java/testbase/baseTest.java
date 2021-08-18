@@ -12,7 +12,7 @@ import pages.HomePage;
 import java.util.concurrent.TimeUnit;
 
 public class baseTest {
-    protected static WebDriver driver;
+    protected WebDriver driver;
     protected HomePage homePage;
 
 
@@ -50,7 +50,7 @@ public class baseTest {
 
 
     //singleton pattern
-    private static WebDriver getDriver(ChromeOptions options){
+    private WebDriver getDriver(ChromeOptions options){
         if(driver == null){
             driver = new ChromeDriver(options);
             //System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
