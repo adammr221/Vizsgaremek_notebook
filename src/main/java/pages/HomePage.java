@@ -37,6 +37,7 @@ public class HomePage {
 
 
 
+
     //Constructor
     public HomePage(WebDriver webDriver){
         this.DRIVER = webDriver;
@@ -163,6 +164,8 @@ public class HomePage {
     }
 
     public void setSearchBar(String input){
+        //WebDriverWait wait = new WebDriverWait(DRIVER, 30);
+        //wait.until(ExpectedConditions.elementToBeClickable(SEARCH_BAR));
         DRIVER.findElement(SEARCH_BAR).sendKeys(input);
     }
 

@@ -27,20 +27,6 @@ public class baseTest {
         homePage = new HomePage(driver);
         homePage.navigate();
     }
-     /*
-    @BeforeEach
-    public void SetUp() {
-        WebDriverManager.chromedriver().setup();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--headless");
-        driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
-        homePage = new HomePage(driver);
-        homePage.navigate();
-    }
-      */
 
 
     @AfterEach
@@ -54,7 +40,7 @@ public class baseTest {
         if(driver == null){
             driver = new ChromeDriver(options);
             //System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
             driver.manage().window().maximize();
         }
         return driver;

@@ -15,7 +15,9 @@ public class ModifyDataTest extends baseTest {
     @Test
     public void testBrandFilter(){
         homePage.navigate();
+        Tools.TakeScreenshot(driver);
         homePage.setSearchBar("pendrive");
+        Tools.TakeScreenshot(driver);
         ResultPage resultPage = homePage.clickEnterToShowSearchResults();
         Tools.TakeScreenshot(driver);
         int NumberOfBrandsBeforeFilter = resultPage.getNumberOfBrands();
