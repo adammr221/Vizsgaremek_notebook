@@ -1,0 +1,81 @@
+[ {
+  "uid" : "9b884a3fbae06823",
+  "name" : "testSuccessfulLogin()",
+  "time" : {
+    "start" : 1629309493993,
+    "stop" : 1629309518244,
+    "duration" : 24251
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b66dd8a27827a4a7",
+  "name" : "testSuccessfulLogout()",
+  "time" : {
+    "start" : 1629309392942,
+    "stop" : 1629309416843,
+    "duration" : 23901
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "89140b8a8bb12f97",
+  "name" : "testBrandFilter()",
+  "time" : {
+    "start" : 1629309421849,
+    "stop" : 1629309446116,
+    "duration" : 24267
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "26ab2ed2481375bf",
+  "name" : "testUnsuccessfulLogin()",
+  "time" : {
+    "start" : 1629309469663,
+    "stop" : 1629309493986,
+    "duration" : 24323
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "befe3878836faf0d",
+  "name" : "testDeleteProductFromCart()",
+  "time" : {
+    "start" : 1629309541700,
+    "stop" : 1629309565200,
+    "duration" : 23500
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4af6df9fc7438884",
+  "name" : "FilterAppleNotebooksTest()",
+  "time" : {
+    "start" : 1629309446121,
+    "stop" : 1629309469658,
+    "duration" : 23537
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2af07809325273ac",
+  "name" : "testCheckEachLineOfPrivacyPolicyTextFile()",
+  "time" : {
+    "start" : 1629309416956,
+    "stop" : 1629309421840,
+    "duration" : 4884
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8273e6faaaa4db",
+  "name" : "MultiPageAppleProductFilterTest()",
+  "time" : {
+    "start" : 1629309518259,
+    "stop" : 1629309541696,
+    "duration" : 23437
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
