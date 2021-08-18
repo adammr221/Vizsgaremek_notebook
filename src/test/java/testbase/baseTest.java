@@ -15,20 +15,19 @@ public class baseTest {
     protected static WebDriver driver;
     protected HomePage homePage;
 
-    /*
+
     @BeforeEach
     public void setUp(){
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
-        options.addArguments("start-maximized");
-        options.addArguments("--no-sandbox");
+        //options.addArguments("start-maximized");
         options.addArguments("--disable-dev-shm-usage");
         driver = getDriver(options);
         homePage = new HomePage(driver);
         homePage.navigate();
     }
-     */
+     /*
     @BeforeEach
     public void SetUp() {
         WebDriverManager.chromedriver().setup();
@@ -41,6 +40,7 @@ public class baseTest {
         homePage = new HomePage(driver);
         homePage.navigate();
     }
+      */
 
 
     @AfterEach
@@ -55,7 +55,7 @@ public class baseTest {
             driver = new ChromeDriver(options);
             //System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-            //driver.manage().window().maximize();
+            driver.manage().window().maximize();
         }
         return driver;
     }

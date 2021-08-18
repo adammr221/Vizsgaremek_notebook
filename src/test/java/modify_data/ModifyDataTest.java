@@ -6,7 +6,10 @@ import org.junit.jupiter.api.Test;
 import pages.LoginPage;
 import pages.MyAccountPage;
 import pages.ResultPage;
+import pages.Tools;
 import testbase.baseTest;
+
+import javax.tools.Tool;
 
 public class ModifyDataTest extends baseTest {
     @Test
@@ -14,10 +17,13 @@ public class ModifyDataTest extends baseTest {
         homePage.navigate();
         homePage.setSearchBar("pendrive");
         ResultPage resultPage = homePage.clickEnterToShowSearchResults();
+        Tools.TakeScreenshot(driver);
         int NumberOfBrandsBeforeFilter = resultPage.getNumberOfBrands();
         resultPage.setBrandSearchBar("adata");
+        Tools.TakeScreenshot(driver);
         int NumberOfBrandsAfterFilter = resultPage.getNumberOfBrands();
         resultPage.modifyBrandSearchBar("ki");
+        Tools.TakeScreenshot(driver);
         Assumptions.assumeTrue(NumberOfBrandsAfterFilter < NumberOfBrandsBeforeFilter);
         Assertions.assertTrue(resultPage.checkBrandNamesIncludeSearchedSubString("ki"));
     }

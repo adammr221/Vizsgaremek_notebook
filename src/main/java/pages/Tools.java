@@ -1,9 +1,11 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import io.qameta.allure.Allure;
+import io.qameta.allure.Step;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+
+import java.io.ByteArrayInputStream;
 
 public class Tools {
     public static By IFRAME_AD_CANCEL_BTN = By.xpath("//*[name()='svg']/*[name()='path']");
@@ -19,6 +21,12 @@ public class Tools {
         }catch (Exception e){
             System.out.println(e);
         }
+    }
+
+    @Step("TakeScreenshot")
+    public static void TakeScreenshot(WebDriver driver) {
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        System.out.println(driver.getCurrentUrl());
     }
 
 }
