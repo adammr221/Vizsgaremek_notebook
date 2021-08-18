@@ -1,0 +1,128 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.0.110', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.3mJi3R}, goog:chromeOptions: {debuggerAddress: localhost:43601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a30ce9d87bf6660341502fdd7a9184e5",
+      "children" : [ {
+        "name" : "testSuccessfulLogout()",
+        "uid" : "f47be6406dba63db",
+        "parentUid" : "41d72fe1bb0f39b2e6bc23ff6e5acb70",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629314077952,
+          "stop" : 1629314108807,
+          "duration" : 30855
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "41d72fe1bb0f39b2e6bc23ff6e5acb70"
+    }, {
+      "name" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.0.110', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.JVONNa}, goog:chromeOptions: {debuggerAddress: localhost:36155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 725d7fc71bcc1f4397791e039828ec7b",
+      "children" : [ {
+        "name" : "testBrandFilter()",
+        "uid" : "3734639fd464d4bc",
+        "parentUid" : "f7b4fcd8b716ed77448ce854df509fa3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629314116209,
+          "stop" : 1629314148023,
+          "duration" : 31814
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f7b4fcd8b716ed77448ce854df509fa3"
+    }, {
+      "name" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.0.110', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.Mh2f8N}, goog:chromeOptions: {debuggerAddress: localhost:44265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 205ae513161da5c876ce1b11dbb395ed",
+      "children" : [ {
+        "name" : "FilterAppleNotebooksTest()",
+        "uid" : "814cd4fafc02433b",
+        "parentUid" : "81722adc4baf7d2679966ddb8f1371dc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629314148038,
+          "stop" : 1629314178302,
+          "duration" : 30264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "81722adc4baf7d2679966ddb8f1371dc"
+    }, {
+      "name" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.0.110', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.KJp55B}, goog:chromeOptions: {debuggerAddress: localhost:46473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d426c5172f26becb3bca71dfb6af9ad0",
+      "children" : [ {
+        "name" : "testUnsuccessfulLogin()",
+        "uid" : "e7afbbbc6f6ff755",
+        "parentUid" : "a131a77d545e2eb259d794208099d51f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629314178310,
+          "stop" : 1629314209976,
+          "duration" : 31666
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a131a77d545e2eb259d794208099d51f"
+    }, {
+      "name" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.0.110', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.3agGBm}, goog:chromeOptions: {debuggerAddress: localhost:42283}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1258104acd572e0848163dbf795f2109",
+      "children" : [ {
+        "name" : "testSuccessfulLogin()",
+        "uid" : "e02864dbece9783e",
+        "parentUid" : "65e06a918114ec4e4c7730bfb40f619f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629314209983,
+          "stop" : 1629314241537,
+          "duration" : 31554
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "65e06a918114ec4e4c7730bfb40f619f"
+    }, {
+      "name" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.0.110', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.W18wTW}, goog:chromeOptions: {debuggerAddress: localhost:41295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1ee33eacaee9b71a3e4bdad245e1f84b",
+      "children" : [ {
+        "name" : "MultiPageAppleProductFilterTest()",
+        "uid" : "4d53eff0fb07284f",
+        "parentUid" : "9ce389f457b811528e35ba59b0cf3d8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629314241546,
+          "stop" : 1629314271887,
+          "duration" : 30341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ce389f457b811528e35ba59b0cf3d8d"
+    }, {
+      "name" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.0.110', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.mc1JOS}, goog:chromeOptions: {debuggerAddress: localhost:43269}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 18b15857f33f13d951377e20cd43c4d3",
+      "children" : [ {
+        "name" : "testDeleteProductFromCart()",
+        "uid" : "13615d4677f19487",
+        "parentUid" : "5a085952245eb3788eda4367f3e50e68",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629314271892,
+          "stop" : 1629314302100,
+          "duration" : 30208
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5a085952245eb3788eda4367f3e50e68"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
