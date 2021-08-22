@@ -35,7 +35,7 @@ public class ModifyDataTest extends baseTest {
         Assertions.assertTrue(resultPage.checkBrandNamesIncludeSearchedSubString("ki"));
     }
 
-    /*
+
     @Test
     @DisplayName("TC6 It should modify the first name of the user.")
     public void testModifyRegisteredName(){
@@ -51,10 +51,10 @@ public class ModifyDataTest extends baseTest {
         myAccountPage.setPasswordAgain("Wsp321.");
         homePage.takeScreenShot();
         myAccountPage.clickSaveBtn();
+        homePage.takeScreenShot();
         String ExpectedResult = "Az adatokat sikeresen módosítottuk!";
         Assertions.assertEquals(ExpectedResult, myAccountPage.getSuccessfulModificationText());
     }
 
-     */
 
 }

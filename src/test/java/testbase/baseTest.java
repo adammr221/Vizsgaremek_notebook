@@ -36,9 +36,6 @@ public class baseTest {
     }
 
 
-
-
-    //Singleton pattern
     private WebDriver getDriver(ChromeOptions options){
         if(driver == null){
             driver = new ChromeDriver(options);

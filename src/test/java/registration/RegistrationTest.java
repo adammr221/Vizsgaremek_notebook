@@ -11,7 +11,7 @@ import testbase.baseTest;
 
 public class RegistrationTest extends baseTest {
 
-/*
+
     @Test
     @DisplayName("TC1 Succesful registration")
     public void testSuccessfulRegistration(){
@@ -27,7 +27,6 @@ public class RegistrationTest extends baseTest {
         Assertions.assertTrue(successfulRegistrationPage.getAlertText().contains("Sikeres"));
     }
 
- */
 
 
 

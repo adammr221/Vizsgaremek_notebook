@@ -12,6 +12,7 @@ public class PrivacyPolicyTest extends baseTest {
     @DisplayName("TC10 The privacy policy page should contain the capters stored in the class PrivacyPolicyPage.")
     public void testCheckEachLineOfPrivacyPolicyTextFile(){
         PrivacyPolicyPage privacyPolicyPage = homePage.clickPrivacyPolicyBtnOnCookieBoxPopUp();
+        homePage.takeScreenShot();
         privacyPolicyPage.SaveParagrahpsToTxtFile();
         homePage.clickAcceptOnPrivacyPolicy();
         Assertions.assertTrue(privacyPolicyPage.checkEachLineOfPrivacyPolicyTXT(privacyPolicyPage.PrivacyPolicyChapters));

@@ -8,7 +8,7 @@ import testbase.baseTest;
 
 public class SubscriptionForNewsLetterTest extends baseTest {
 
-/*
+
 
     @Test
     @DisplayName("TC9 It subscribes as many newsletter as there are users in json file.")
@@ -17,7 +17,7 @@ public class SubscriptionForNewsLetterTest extends baseTest {
         Assertions.assertTrue(homePage.AreAllSubscriptionSuccessful());
     }
 
- */
+
 
 
 }
