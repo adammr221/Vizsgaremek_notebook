@@ -1,7 +1,6 @@
 package pages;
 
 import io.qameta.allure.Allure;
-import io.qameta.allure.Step;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 
@@ -23,13 +22,11 @@ public class Tools {
         }
     }
 
-/*
-    @Step("TakeScreenshot")
-    public static void TakeScreenshot(WebDriver driver) {
-        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-        System.out.println(driver.getCurrentUrl());
-    }
 
- */
+    public static void Screenshot(WebDriver DRIVER) {
+        Allure.addAttachment("Screenshot",
+                new ByteArrayInputStream(((TakesScreenshot) DRIVER).getScreenshotAs(OutputType.BYTES)));
+        System.out.println(DRIVER.getCurrentUrl());
+    }
 
 }

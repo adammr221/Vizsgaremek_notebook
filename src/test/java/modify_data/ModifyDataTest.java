@@ -4,6 +4,7 @@ import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Assumptions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -19,23 +20,24 @@ import java.io.ByteArrayInputStream;
 
 public class ModifyDataTest extends baseTest {
     @Test
+    @DisplayName("TC7 It tests the brand filter by entering a brand and then modifying it with a sub brand.")
     public void testBrandFilter(){
         homePage.navigate();
-        TakeScreenshot(driver);
         homePage.setSearchBar("pendrive");
-        TakeScreenshot(driver);
         ResultPage resultPage = homePage.clickEnterToShowSearchResults();
-        TakeScreenshot(driver);
         int NumberOfBrandsBeforeFilter = resultPage.getNumberOfBrands();
         resultPage.setBrandSearchBar("adata");
+        homePage.takeScreenShot();
         int NumberOfBrandsAfterFilter = resultPage.getNumberOfBrands();
         resultPage.modifyBrandSearchBar("ki");
+        homePage.takeScreenShot();
         Assumptions.assumeTrue(NumberOfBrandsAfterFilter < NumberOfBrandsBeforeFilter);
         Assertions.assertTrue(resultPage.checkBrandNamesIncludeSearchedSubString("ki"));
     }
 
     /*
     @Test
+    @DisplayName("TC6 It should modify the first name of the user.")
     public void testModifyRegisteredName(){
         homePage.navigate();
         LoginPage loginPage = homePage.clickMyAccount();
@@ -47,6 +49,7 @@ public class ModifyDataTest extends baseTest {
         myAccountPage.setFirstName("Áron");
         myAccountPage.setPassword("Wsp321.");
         myAccountPage.setPasswordAgain("Wsp321.");
+        homePage.takeScreenShot();
         myAccountPage.clickSaveBtn();
         String ExpectedResult = "Az adatokat sikeresen módosítottuk!";
         Assertions.assertEquals(ExpectedResult, myAccountPage.getSuccessfulModificationText());
@@ -54,9 +57,4 @@ public class ModifyDataTest extends baseTest {
 
      */
 
-    @Step("TakeScreenshot")
-    public void TakeScreenshot(WebDriver driver) {
-        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-        System.out.println(driver.getCurrentUrl());
-    }
 }

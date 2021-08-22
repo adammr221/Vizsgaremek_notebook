@@ -20,7 +20,7 @@ public class baseTest {
     public void setUp(){
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
+        //options.addArguments("--headless");
         options.addArguments("start-maximized");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--window-size=1920,1080");
@@ -36,7 +36,9 @@ public class baseTest {
     }
 
 
-    //singleton pattern
+
+
+    //Singleton pattern
     private WebDriver getDriver(ChromeOptions options){
         if(driver == null){
             driver = new ChromeDriver(options);

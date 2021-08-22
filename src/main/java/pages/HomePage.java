@@ -107,12 +107,12 @@ public class HomePage {
 
 
     public void SubscriptionForNewsLetter(){
-        String[][] input = SaveJsonFileContentInArray("input_data_test.json");
+        User[] input = SaveJsonFileContentInArray("input_data_test.json");
         int NumOfUsers = input.length;
         for (int i = 0; i < NumOfUsers; i++) {
-            DRIVER.findElement(SUBSCRIPTION_FIRST_NAME_FIELD).sendKeys(input[i][0]);
-            DRIVER.findElement(SUBSCRIPTION_LAST_NAME_FIELD).sendKeys(input[i][1]);
-            DRIVER.findElement(SUBSCRIPTION_EMAIL_FIELD).sendKeys(input[i][2]);
+            DRIVER.findElement(SUBSCRIPTION_FIRST_NAME_FIELD).sendKeys(input[i].getFirstName());
+            DRIVER.findElement(SUBSCRIPTION_LAST_NAME_FIELD).sendKeys(input[i].getLastName());
+            DRIVER.findElement(SUBSCRIPTION_EMAIL_FIELD).sendKeys(input[i].getEmail());
             click(SUBSCRIPTION_ACCEPT_PRIVACY_POLICY);
             click(SUBSCRIPTION_BTN);
             SubscriptionAlertTextList.add(AlertTextForSubscription());
@@ -121,18 +121,19 @@ public class HomePage {
         }
     }
 
-    private String[][] SaveJsonFileContentInArray(String input){
+    private User[] SaveJsonFileContentInArray(String input){
         try {
             Reader reader = Files.newBufferedReader(Paths.get(input));
             ObjectMapper objectMapper = new ObjectMapper();
             JsonNode parser = objectMapper.readTree(reader);
             int NumOfUsers = parser.path("users").size();
-            String[][] users = new String[NumOfUsers][3]; //[firstname,lastname,e-mail]
+            User[] users = new User[NumOfUsers];
             int i = 0;
             for(JsonNode user : parser.path("users")){
-                    users[i][0] = user.path("name").path("firstName").asText();
-                    users[i][1] = user.path("name").path("lastName").asText();
-                    users[i][2] = user.path("email").asText();
+                    users[i] = new User(
+                            user.path("name").path("firstName").asText(),
+                            user.path("name").path("lastName").asText(),
+                            user.path("email").asText());
                     i++;
             }
             reader.close();
@@ -165,9 +166,6 @@ public class HomePage {
     }
 
     public void setSearchBar(String input){
-        //WebDriverWait wait = new WebDriverWait(DRIVER, 30);
-        //wait.until(ExpectedConditions.elementToBeClickable(SEARCH_BAR));
-        //click(SEARCH_BTN);
         DRIVER.findElement(SEARCH_BAR).sendKeys(input);
     }
 
@@ -189,6 +187,10 @@ public class HomePage {
     public void hoverOverElement(By xpath){
         Actions actions = new Actions(DRIVER);
         actions.moveToElement(DRIVER.findElement(xpath)).perform();
+    }
+
+    public void takeScreenShot(){
+        Tools.Screenshot(DRIVER);
     }
 
 

@@ -1,6 +1,8 @@
 package registration;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.LoginPage;
 import pages.RegistrationPage;
@@ -9,8 +11,9 @@ import testbase.baseTest;
 
 public class RegistrationTest extends baseTest {
 
-    /*
+/*
     @Test
+    @DisplayName("TC1 Succesful registration")
     public void testSuccessfulRegistration(){
         LoginPage loginPage = homePage.clickMyAccount();
         RegistrationPage registrationPage = loginPage.clickRegistration();
@@ -24,5 +27,8 @@ public class RegistrationTest extends baseTest {
         Assertions.assertTrue(successfulRegistrationPage.getAlertText().contains("Sikeres"));
     }
 
-     */
+ */
+
+
+
 }
