@@ -1,0 +1,141 @@
+{
+  "uid" : "a337643b2df55505",
+  "name" : "TC1 Succesful registration",
+  "fullName" : "registration.RegistrationTest.testSuccessfulRegistration",
+  "historyId" : "d698b8386eba0674b1142f596fdae782",
+  "time" : {
+    "start" : 1629647374364,
+    "stop" : 1629647409887,
+    "duration" : 35523
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629647374367,
+      "stop" : 1629647379544,
+      "duration" : 5177
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "86169c02dfcea2ef",
+      "name" : "Screenshot",
+      "source" : "86169c02dfcea2ef.png",
+      "type" : "image/png",
+      "size" : 394872
+    }, {
+      "uid" : "7d54d3f84b5a97fb",
+      "name" : "Screenshot",
+      "source" : "7d54d3f84b5a97fb.png",
+      "type" : "image/png",
+      "size" : 383903
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629647409809,
+      "stop" : 1629647409887,
+      "duration" : 78
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az82-980"
+  }, {
+    "name" : "thread",
+    "value" : "4511@fv-az82-980.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "registration.RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "registration.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSuccessfulRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "registration.RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "1adb308dc9d89922",
+        "reportUrl" : "https://adammr221.github.io/Vizsgaremek_notebook/13//#testresult/1adb308dc9d89922",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='success1']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-980', ip: '10.1.0.74', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.3XeA6C}, goog:chromeOptions: {debuggerAddress: localhost:36269}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a1e2d3c33cb7e962218d2015d9133a89\n*** Element info: {Using=xpath, value=//div[@class='success1']}",
+        "time" : {
+          "start" : 1629645412306,
+          "stop" : 1629645448214,
+          "duration" : 35908
+        }
+      }, {
+        "uid" : "3f13f155a669b7c4",
+        "reportUrl" : "https://adammr221.github.io/Vizsgaremek_notebook/12//#testresult/3f13f155a669b7c4",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='success1']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.0.72', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.tGicQi}, goog:chromeOptions: {debuggerAddress: localhost:33943}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3952f52b09d9975c55549f546035f629\n*** Element info: {Using=xpath, value=//div[@class='success1']}",
+        "time" : {
+          "start" : 1629641377578,
+          "stop" : 1629641409294,
+          "duration" : 31716
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a337643b2df55505.json",
+  "parameterValues" : [ ]
+}
