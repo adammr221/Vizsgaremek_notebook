@@ -1,0 +1,117 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az82-980",
+    "children" : [ {
+      "name" : "4106@fv-az82-980.ForkJoinPool-1-worker-3(16)",
+      "children" : [ {
+        "name" : "TC7 It tests the brand filter by entering a brand and then modifying it with a sub brand.",
+        "uid" : "bbf159a02d7be545",
+        "parentUid" : "9959bd72cbdb2143f7994cb6581d60b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629638995796,
+          "stop" : 1629639006853,
+          "duration" : 11057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC5 It should delete a Led monitor from the cart.",
+        "uid" : "7c7e3530c4731796",
+        "parentUid" : "9959bd72cbdb2143f7994cb6581d60b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629639102154,
+          "stop" : 1629639119754,
+          "duration" : 17600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC10 The privacy policy page should contain the capters stored in the class PrivacyPolicyPage.",
+        "uid" : "e5445e74babd9685",
+        "parentUid" : "9959bd72cbdb2143f7994cb6581d60b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629638988177,
+          "stop" : 1629638995780,
+          "duration" : 7603
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC2",
+        "uid" : "b376ff974d8d2060",
+        "parentUid" : "9959bd72cbdb2143f7994cb6581d60b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629639027075,
+          "stop" : 1629639038247,
+          "duration" : 11172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC4 It should log out succesfully",
+        "uid" : "311e520263eee820",
+        "parentUid" : "9959bd72cbdb2143f7994cb6581d60b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629638975725,
+          "stop" : 1629638988068,
+          "duration" : 12343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC8 All result must include the filtered brand.",
+        "uid" : "8c4c18cb6a971bc",
+        "parentUid" : "9959bd72cbdb2143f7994cb6581d60b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629639038264,
+          "stop" : 1629639102150,
+          "duration" : 63886
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC11 The page must contain elements that match the filter criteria.",
+        "uid" : "d95b65f316c85e30",
+        "parentUid" : "9959bd72cbdb2143f7994cb6581d60b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629639006859,
+          "stop" : 1629639016330,
+          "duration" : 9471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC3",
+        "uid" : "870914c842f02bcb",
+        "parentUid" : "9959bd72cbdb2143f7994cb6581d60b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629639016343,
+          "stop" : 1629639027069,
+          "duration" : 10726
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9959bd72cbdb2143f7994cb6581d60b1"
+    } ],
+    "uid" : "67c17f9eac8c49285922d9eb275621cf"
+  } ],
+  "name" : "timeline"
+}

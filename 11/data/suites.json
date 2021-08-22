@@ -1,0 +1,137 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "logout.LogoutTest",
+    "children" : [ {
+      "name" : "TC4 It should log out succesfully",
+      "uid" : "311e520263eee820",
+      "parentUid" : "9d2dbe5ca75b2a590386ac43a04ed3ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629638975725,
+        "stop" : 1629638988068,
+        "duration" : 12343
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9d2dbe5ca75b2a590386ac43a04ed3ee"
+  }, {
+    "name" : "privacypolicy.PrivacyPolicyTest",
+    "children" : [ {
+      "name" : "TC10 The privacy policy page should contain the capters stored in the class PrivacyPolicyPage.",
+      "uid" : "e5445e74babd9685",
+      "parentUid" : "b83a0ffd40c9049d7b5a92424a960378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629638988177,
+        "stop" : 1629638995780,
+        "duration" : 7603
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b83a0ffd40c9049d7b5a92424a960378"
+  }, {
+    "name" : "modify_data.ModifyDataTest",
+    "children" : [ {
+      "name" : "TC7 It tests the brand filter by entering a brand and then modifying it with a sub brand.",
+      "uid" : "bbf159a02d7be545",
+      "parentUid" : "a6bec143ac05b84a25865582d24feca9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629638995796,
+        "stop" : 1629639006853,
+        "duration" : 11057
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a6bec143ac05b84a25865582d24feca9"
+  }, {
+    "name" : "save_data.ProductFilterTest",
+    "children" : [ {
+      "name" : "TC11 The page must contain elements that match the filter criteria.",
+      "uid" : "d95b65f316c85e30",
+      "parentUid" : "cff3f54b7f1b3970a2021ede966cfe3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629639006859,
+        "stop" : 1629639016330,
+        "duration" : 9471
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cff3f54b7f1b3970a2021ede966cfe3a"
+  }, {
+    "name" : "login.LoginTest",
+    "children" : [ {
+      "name" : "TC3",
+      "uid" : "870914c842f02bcb",
+      "parentUid" : "b4388fd6319efc981a634ab840782df5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629639016343,
+        "stop" : 1629639027069,
+        "duration" : 10726
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC2",
+      "uid" : "b376ff974d8d2060",
+      "parentUid" : "b4388fd6319efc981a634ab840782df5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629639027075,
+        "stop" : 1629639038247,
+        "duration" : 11172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b4388fd6319efc981a634ab840782df5"
+  }, {
+    "name" : "read_multipage_list.ReadMultiPageListTest",
+    "children" : [ {
+      "name" : "TC8 All result must include the filtered brand.",
+      "uid" : "8c4c18cb6a971bc",
+      "parentUid" : "99a01ee6bc7964f3ea263943596f49f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629639038264,
+        "stop" : 1629639102150,
+        "duration" : 63886
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "99a01ee6bc7964f3ea263943596f49f7"
+  }, {
+    "name" : "delete_data.DeleteProductFromCartTest",
+    "children" : [ {
+      "name" : "TC5 It should delete a Led monitor from the cart.",
+      "uid" : "7c7e3530c4731796",
+      "parentUid" : "61818b4fa8ab9c0b7d418525af35021f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629639102154,
+        "stop" : 1629639119754,
+        "duration" : 17600
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "61818b4fa8ab9c0b7d418525af35021f"
+  } ],
+  "name" : "suites"
+}

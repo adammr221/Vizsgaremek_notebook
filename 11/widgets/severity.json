@@ -1,0 +1,81 @@
+[ {
+  "uid" : "311e520263eee820",
+  "name" : "TC4 It should log out succesfully",
+  "time" : {
+    "start" : 1629638975725,
+    "stop" : 1629638988068,
+    "duration" : 12343
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b376ff974d8d2060",
+  "name" : "TC2",
+  "time" : {
+    "start" : 1629639027075,
+    "stop" : 1629639038247,
+    "duration" : 11172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d95b65f316c85e30",
+  "name" : "TC11 The page must contain elements that match the filter criteria.",
+  "time" : {
+    "start" : 1629639006859,
+    "stop" : 1629639016330,
+    "duration" : 9471
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "870914c842f02bcb",
+  "name" : "TC3",
+  "time" : {
+    "start" : 1629639016343,
+    "stop" : 1629639027069,
+    "duration" : 10726
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c4c18cb6a971bc",
+  "name" : "TC8 All result must include the filtered brand.",
+  "time" : {
+    "start" : 1629639038264,
+    "stop" : 1629639102150,
+    "duration" : 63886
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbf159a02d7be545",
+  "name" : "TC7 It tests the brand filter by entering a brand and then modifying it with a sub brand.",
+  "time" : {
+    "start" : 1629638995796,
+    "stop" : 1629639006853,
+    "duration" : 11057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c7e3530c4731796",
+  "name" : "TC5 It should delete a Led monitor from the cart.",
+  "time" : {
+    "start" : 1629639102154,
+    "stop" : 1629639119754,
+    "duration" : 17600
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5445e74babd9685",
+  "name" : "TC10 The privacy policy page should contain the capters stored in the class PrivacyPolicyPage.",
+  "time" : {
+    "start" : 1629638988177,
+    "stop" : 1629638995780,
+    "duration" : 7603
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
