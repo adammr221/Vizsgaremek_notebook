@@ -27,7 +27,7 @@ public class RegistrationTest extends baseTest {
         SuccessfulRegistrationPage successfulRegistrationPage = registrationPage.clickRegistrationBtn();
         homePage.ifPopupAppearedClickOnX();
         homePage.takeScreenShot();
-        Assertions.assertTrue(successfulRegistrationPage.getAlertText().contains("Sikeres"));
+        Assertions.assertTrue(successfulRegistrationPage.isRegistrationSuccesful());
     }
 
 

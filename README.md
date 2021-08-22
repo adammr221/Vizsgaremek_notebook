@@ -2,7 +2,7 @@
 | Vizsgált weboldal címe: | https://www.notebook.hu/ |
 | ------ | ------ |
 | Git repository: | https://github.com/adammr221/Vizsgaremek_notebook |
-| Allure report: | https://adammr221.github.io/Vizsgaremek_notebook/13/ |
+| Allure report: | https://adammr221.github.io/Vizsgaremek_notebook/14/ |
 
 ## Tesztek:
 <em>A teszt script-ek tartalmaznak alapértelmezett tesztadatokat.</em>
