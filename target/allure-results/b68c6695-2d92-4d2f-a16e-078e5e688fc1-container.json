@@ -1,0 +1,1 @@
+{"uuid":"b68c6695-2d92-4d2f-a16e-078e5e688fc1","name":"TC1 Succesful registration","children":["e0bc2221-ecca-4be5-be1b-e8f0b0cdf81a"],"befores":[{"name":"setUp","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1629643748667,"stop":1629643752509}],"afters":[],"links":[],"start":1629643748564,"stop":1629643781700}

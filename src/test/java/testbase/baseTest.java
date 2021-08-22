@@ -29,11 +29,11 @@ public class baseTest {
         homePage.navigate();
     }
 
-
     @AfterEach
     public void tearDown(){
             driver.quit();
     }
+
 
 
     private WebDriver getDriver(ChromeOptions options){

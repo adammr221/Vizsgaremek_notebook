@@ -17,13 +17,16 @@ public class RegistrationTest extends baseTest {
     public void testSuccessfulRegistration(){
         LoginPage loginPage = homePage.clickMyAccount();
         RegistrationPage registrationPage = loginPage.clickRegistration();
-        registrationPage.setFirstname("Kiss");
-        registrationPage.setLastname("Elek");
-        registrationPage.setEmailField("elek.teszt.mail@gmail.com");
+        registrationPage.setFirstname("Kovács");
+        registrationPage.setLastname("Áron");
+        registrationPage.setEmailField("aronkovacs1975@gmail.com");
         registrationPage.AcceptTermsAndConditionsByRadioBtn();
-        registrationPage.setPasswordField("Wsp331.");
-        registrationPage.setPasswordField2("Wsp331.");
+        registrationPage.setPasswordField("Wsp0819.");
+        registrationPage.setPasswordField2("Wsp0819.");
+        homePage.takeScreenShot();
         SuccessfulRegistrationPage successfulRegistrationPage = registrationPage.clickRegistrationBtn();
+        homePage.ifPopupAppearedClickOnX();
+        homePage.takeScreenShot();
         Assertions.assertTrue(successfulRegistrationPage.getAlertText().contains("Sikeres"));
     }
 

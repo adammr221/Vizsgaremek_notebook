@@ -46,7 +46,7 @@ public class ModifyDataTest extends baseTest {
         MyAccountPage myAccountPage = loginPage.clickLogin();
         homePage.ifPopupAppearedClickOnX();
         myAccountPage.clickAccountInformation();
-        myAccountPage.setFirstName("Áron");
+        myAccountPage.setFirstName("Péter");
         myAccountPage.setPassword("Wsp321.");
         myAccountPage.setPasswordAgain("Wsp321.");
         homePage.takeScreenShot();
