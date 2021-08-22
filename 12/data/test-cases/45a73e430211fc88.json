@@ -1,0 +1,110 @@
+{
+  "uid" : "45a73e430211fc88",
+  "name" : "TC6 It should modify the first name of the user.",
+  "fullName" : "modify_data.ModifyDataTest.testModifyRegisteredName",
+  "historyId" : "feda141fd1ad0edc79261974b88a14ba",
+  "time" : {
+    "start" : 1629641276041,
+    "stop" : 1629641285771,
+    "duration" : 9730
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629641276041,
+      "stop" : 1629641279430,
+      "duration" : 3389
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ce4231676b775a8c",
+      "name" : "Screenshot",
+      "source" : "ce4231676b775a8c.png",
+      "type" : "image/png",
+      "size" : 409199
+    }, {
+      "uid" : "f6c4ad2e71bf8751",
+      "name" : "Screenshot",
+      "source" : "f6c4ad2e71bf8751.png",
+      "type" : "image/png",
+      "size" : 401548
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629641285698,
+      "stop" : 1629641285771,
+      "duration" : 73
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-896"
+  }, {
+    "name" : "thread",
+    "value" : "4567@fv-az39-896.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "modify_data.ModifyDataTest"
+  }, {
+    "name" : "testClass",
+    "value" : "modify_data.ModifyDataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testModifyRegisteredName"
+  }, {
+    "name" : "suite",
+    "value" : "modify_data.ModifyDataTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45a73e430211fc88.json",
+  "parameterValues" : [ ]
+}

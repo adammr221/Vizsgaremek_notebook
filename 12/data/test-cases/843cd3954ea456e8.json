@@ -1,0 +1,87 @@
+{
+  "uid" : "843cd3954ea456e8",
+  "name" : "TC9 It subscribes as many newsletter as there are users in json file.",
+  "fullName" : "input_data_from_source.SubscriptionForNewsLetterTest.testSuccessfulSubscribtionForNewsLetter",
+  "historyId" : "4ca01128116399efaacad28bc9989ebe",
+  "time" : {
+    "start" : 1629641261808,
+    "stop" : 1629641269558,
+    "duration" : 7750
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629641261809,
+      "stop" : 1629641265183,
+      "duration" : 3374
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629641269484,
+      "stop" : 1629641269558,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-896"
+  }, {
+    "name" : "thread",
+    "value" : "4567@fv-az39-896.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "input_data_from_source.SubscriptionForNewsLetterTest"
+  }, {
+    "name" : "testClass",
+    "value" : "input_data_from_source.SubscriptionForNewsLetterTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSuccessfulSubscribtionForNewsLetter"
+  }, {
+    "name" : "suite",
+    "value" : "input_data_from_source.SubscriptionForNewsLetterTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "843cd3954ea456e8.json",
+  "parameterValues" : [ ]
+}

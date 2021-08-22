@@ -1,0 +1,111 @@
+[ {
+  "uid" : "5ea2d6beec4a4930",
+  "name" : "TC3",
+  "time" : {
+    "start" : 1629641292137,
+    "stop" : 1629641299425,
+    "duration" : 7288
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45a73e430211fc88",
+  "name" : "TC6 It should modify the first name of the user.",
+  "time" : {
+    "start" : 1629641276041,
+    "stop" : 1629641285771,
+    "duration" : 9730
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aef0567b7b6d05e7",
+  "name" : "TC8 All result must include the filtered brand.",
+  "time" : {
+    "start" : 1629641306730,
+    "stop" : 1629641365948,
+    "duration" : 59218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2df42e79361c19c8",
+  "name" : "TC5 It should delete a Led monitor from the cart.",
+  "time" : {
+    "start" : 1629641365951,
+    "stop" : 1629641377570,
+    "duration" : 11619
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "933d93e131d66edf",
+  "name" : "TC10 The privacy policy page should contain the capters stored in the class PrivacyPolicyPage.",
+  "time" : {
+    "start" : 1629641252083,
+    "stop" : 1629641258936,
+    "duration" : 6853
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89ee98d248529b64",
+  "name" : "TC4 It should log out succesfully",
+  "time" : {
+    "start" : 1629641252177,
+    "stop" : 1629641261737,
+    "duration" : 9560
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "843cd3954ea456e8",
+  "name" : "TC9 It subscribes as many newsletter as there are users in json file.",
+  "time" : {
+    "start" : 1629641261808,
+    "stop" : 1629641269558,
+    "duration" : 7750
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "212a9fcbdb40e90e",
+  "name" : "TC2",
+  "time" : {
+    "start" : 1629641299431,
+    "stop" : 1629641306721,
+    "duration" : 7290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6951625a64f6db60",
+  "name" : "TC11 The page must contain elements that match the filter criteria.",
+  "time" : {
+    "start" : 1629641285778,
+    "stop" : 1629641292132,
+    "duration" : 6354
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73d9a12ce0dfd0cf",
+  "name" : "TC7 It tests the brand filter by entering a brand and then modifying it with a sub brand.",
+  "time" : {
+    "start" : 1629641269568,
+    "stop" : 1629641276037,
+    "duration" : 6469
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f13f155a669b7c4",
+  "name" : "TC1 Succesful registration",
+  "time" : {
+    "start" : 1629641377578,
+    "stop" : 1629641409294,
+    "duration" : 31716
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
