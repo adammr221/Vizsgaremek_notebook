@@ -1,0 +1,111 @@
+[ {
+  "uid" : "cf47a4536bb0401b",
+  "name" : "TC8 All result must include the filtered brand.",
+  "time" : {
+    "start" : 1629645334039,
+    "stop" : 1629645396959,
+    "duration" : 62920
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f85960c9262eb11",
+  "name" : "TC3",
+  "time" : {
+    "start" : 1629645313890,
+    "stop" : 1629645323931,
+    "duration" : 10041
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0f8767f2f3fe954",
+  "name" : "TC7 It tests the brand filter by entering a brand and then modifying it with a sub brand.",
+  "time" : {
+    "start" : 1629645281603,
+    "stop" : 1629645291947,
+    "duration" : 10344
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dcc18fc9afc2757",
+  "name" : "TC2",
+  "time" : {
+    "start" : 1629645323934,
+    "stop" : 1629645334022,
+    "duration" : 10088
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f793e093224aa29",
+  "name" : "TC11 The page must contain elements that match the filter criteria.",
+  "time" : {
+    "start" : 1629645304654,
+    "stop" : 1629645313873,
+    "duration" : 9219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8f3bd61e6cce3de",
+  "name" : "TC5 It should delete a Led monitor from the cart.",
+  "time" : {
+    "start" : 1629645396968,
+    "stop" : 1629645412301,
+    "duration" : 15333
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ddb11118786abcd",
+  "name" : "TC9 It subscribes as many newsletter as there are users in json file.",
+  "time" : {
+    "start" : 1629645271586,
+    "stop" : 1629645281598,
+    "duration" : 10012
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1adb308dc9d89922",
+  "name" : "TC1 Succesful registration",
+  "time" : {
+    "start" : 1629645412306,
+    "stop" : 1629645448214,
+    "duration" : 35908
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9828075d9199d96b",
+  "name" : "TC4 It should log out succesfully",
+  "time" : {
+    "start" : 1629645252650,
+    "stop" : 1629645263862,
+    "duration" : 11212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c2389deab68544",
+  "name" : "TC6 It should modify the first name of the user.",
+  "time" : {
+    "start" : 1629645291950,
+    "stop" : 1629645304650,
+    "duration" : 12700
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14994eeea695eaaa",
+  "name" : "TC10 The privacy policy page should contain the capters stored in the class PrivacyPolicyPage.",
+  "time" : {
+    "start" : 1629645263974,
+    "stop" : 1629645271581,
+    "duration" : 7607
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
